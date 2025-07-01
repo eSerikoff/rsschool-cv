@@ -1,5 +1,5 @@
 # **Evgeny Serikov**
-![Photo](/orig.jpg)
+![Photo](/img/orig.jpg)
 ### Contacts
 **Phone:** +1 555 666 55  
 **Email:** example@forexample.com  
