@@ -13,3 +13,24 @@ However, I always liked writing code myself. I also like to see the results of m
 * Git, Github
 * Java, C#
 * Blender, Unity  
+  
+
+### Code example
+**KATA from Codewars:** The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+
+```
+function duplicateEncode(word){
+
+  const arrStr = word.toLowerCase().split('');
+  let newStr = '';
+
+  for (let i = 0; i < word.length; i++){
+    if ([...arrStr].filter(x => x === word[i].toLowerCase()).length > 1) {
+      newStr += ")";  
+      } else {
+        newStr += '(';
+      }    
+  }
+    return newStr;
+}
+```
