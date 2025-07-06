@@ -41,16 +41,17 @@ b {
 main>p {
     text-align: justify;
 }
-pre {
+code {
+    display: block;
     background-color: rgb(240, 240, 240);
 }
 .ul-edu {
-    margin-top: -15px;
+    margin-top: 0px;
 }
 .footer {
     display: flex;
     justify-content: space-between;
 }
-.footer p {
-    padding-top: 45px;
+footer>div:nth-child(2) {
+    margin: auto;
 }

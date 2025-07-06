@@ -25,7 +25,7 @@
                         <a href="#education">Education</a>
                     </li>
                     <li>
-                        <a href="experience">Experience</a>
+                        <a href="#experience">Experience</a>
                     </li>
                 </ul>
             </nav>
@@ -38,8 +38,8 @@
             <ul class="ul-contacts">
                 <li><b>Phone: </b>+1 555 666 55</li>
                 <li><b>Email: </b>example@forexample.com</li>
-                <li><a href="https://github.io">GitHub</a></li>
-                <li><a href="https://linkedin.com">LinkedIn</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
             </ul>
 
             <h2>Briefly about myself</h2>
@@ -60,38 +60,34 @@
                 <li>Blender, Unity</li>
             </ul>
 
+            <h2>Educational projects</h2>
+                This is my 1st and 2nd task from "JS / Front-end Pre-school RU Course".
+                <ol>
+                    <li>
+                        <a href="https://eserikoff.github.io/rsschool-cv/cv" target="_blank">CV#1</a> task where I created a CV-file with Git-Markdown language.
+                    </li>
+                    <li>
+                        <a href="https://eserikoff.github.io/rsschool-cv/" target="_blank">CV#3</a> task where I translated CV#1 page to HTML/CSS.
+                    </li>
+                </ol>
+            
             <h2>Code example</h2>
-            <p><b>KATA from Codewars:</b> The goal of this exercise is to convert a string to a new string where each
-                character
-                in the new string is “(“ if that character appears only once in the original string, or “)” if that
-                character appears more than once in the original string. Ignore capitalization when determining if a
-                character is a duplicate.</p>
-            <code>
-                <pre>
-function duplicateEncode(word){
+                <code>
+function sum(a, b) {<br>
+&nbsp;&nbsp;return a + b;<br>
+}<br>
+<br>
+let result = sum(1, 2);<br>
+alert( result );
+                </code>
 
-    const arrStr = word.toLowerCase().split('');
-        let newStr = '';
-
-        for (let i = 0; i < word.length; i++){
-            if ([...arrStr].filter(x => x === word[i].toLowerCase()).length > 1) {
-                newStr += ")";  
-                } else {
-                    newStr += '(';
-                }    
-        }
-            return newStr;
-}                </pre>
-            </code>
 
             <h2 id="education">Education</h2>
-            <p>
                 <b>University:</b> GSU them. F. Skorina
                 <ul class="ul-edu">
                     <li><b>faculty:</b> Automated information processing systems</li>
                     <li><b>speciality:</b> Information technology engineer</li>
                 </ul>
-            </p>
 
             <h2 id="experience">Experience</h2>
             <p>
@@ -110,7 +106,7 @@ function duplicateEncode(word){
 
         <footer class="footer">
             <div>
-                <a href="https://github.com/eSerikoff">
+                <a href="https://github.com/eSerikoff" target="_blank">
                     <img src="img/github_logo.png" alt="github_logo">
                 </a>  
             </div>
@@ -120,7 +116,7 @@ function duplicateEncode(word){
                 </p>
             </div>
             <div>
-                <a href="https://rs.school/courses/javascript-preschool-ru">
+                <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
                     <img src="img/rs_logo.png" alt="rs_logo">
                 </a>
             </div>
