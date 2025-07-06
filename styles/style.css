@@ -1,5 +1,6 @@
 .container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.5;
     width: 800px;
     margin: auto;
 }
@@ -10,18 +11,22 @@ header {
     display: flex;
     justify-content: space-between;
 }
-nav>ul {
+.ul-nav {
     margin-top: 1.67em;
 }
-nav>ul>li {
+.ul-nav>li {
     display: inline-block;
     margin-right: 1em;
 }
-li:last-child {
+.ul-nav>li:last-child {
     margin-right: 0;
 }
-a {
+.ul-nav a {
     text-decoration: none;
+    color: black;
+}
+.ul-nav a:visited {
+    color: black;
 }
 hr {
     margin: 5px 0 15px 0;
@@ -29,10 +34,16 @@ hr {
 b {
     font-weight: 600;
 }
-main>ul {
+.ul-contacts {
     padding-left: 0;
     list-style-type: none;
 }
-main>ul>li {
-    padding-bottom: .5em;
+main>p {
+    text-align: justify;
+}
+pre {
+    background-color: rgb(240, 240, 240);
+}
+.ul-edu {
+    margin-top: -15px;
 }

@@ -14,7 +14,7 @@
         <header>
             <h1>Evgeny Serikov</h1>
             <nav>
-                <ul>
+                <ul class="ul-nav">
                     <li>
                         <a href="#contacts">Contacts</a>
                     </li>
@@ -34,14 +34,64 @@
 
         <main>
             <img src="img/orig.jpg" alt="Avatara">
-            <h2>Contacts</h2>
-            <ul>
+            <h2 id="contacts">Contacts</h2>
+            <ul class="ul-contacts">
                 <li><b>Phone: </b>+1 555 666 55</li>
                 <li><b>Email: </b>example@forexample.com</li>
                 <li><a href="https://github.io">GitHub</a></li>
                 <li><a href="https://linkedin.com">LinkedIn</a></li>
             </ul>
 
+            <h2>Briefly about myself</h2>
+            <p>
+                Before getting into IT, I worked in completely different jobs. For almost 10 years I was a
+                telecommunications engineer, after that I was a truck driver, then a courier, and after that I went from
+                a salesperson to a content manager in a construction hypermarket. After all this, I finally got into IT
+                as a manual tester, which is what I currently work as.
+                However, I always liked writing code myself. I also like to see the results of my work immediately and
+                quickly. That is why I decided to establish the profession of a front-end developer.
+            </p>
+
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li>HTML, CSS, JS basic</li>
+                <li>Git, Github</li>
+                <li>Java, C#</li>
+                <li>Blender, Unity</li>
+            </ul>
+
+            <h2>Code example</h2>
+            <p><b>KATA from Codewars:</b> The goal of this exercise is to convert a string to a new string where each
+                character
+                in the new string is “(“ if that character appears only once in the original string, or “)” if that
+                character appears more than once in the original string. Ignore capitalization when determining if a
+                character is a duplicate.</p>
+            <code>
+                <pre>
+function duplicateEncode(word){
+
+    const arrStr = word.toLowerCase().split('');
+        let newStr = '';
+
+        for (let i = 0; i < word.length; i++){
+            if ([...arrStr].filter(x => x === word[i].toLowerCase()).length > 1) {
+                newStr += ")";  
+                } else {
+                    newStr += '(';
+                }    
+        }
+            return newStr;
+}                </pre>
+            </code>
+
+            <h2 id="education">Education</h2>
+            <p>
+                <b>University:</b> GSU them. F. Skorina
+                <ul class="ul-edu">
+                    <li><b>faculty:</b> Automated information processing systems</li>
+                    <li><b>speciality:</b> Information technology engineer</li>
+                </ul>
+            </p>
         </main>
 
     </div>
