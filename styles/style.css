@@ -47,3 +47,10 @@ pre {
 .ul-edu {
     margin-top: -15px;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer p {
+    padding-top: 45px;
+}
