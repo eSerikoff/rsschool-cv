@@ -34,10 +34,11 @@ function duplicateEncode(word){
     return newStr;
 }
 ```
-### Cources and self-study
+### Courses and self-study
 1. [CS50](https://youtube.com)  
-2. Various educational videos on YouTube  
-3. [METANIT](https://metanit.com/web/)
+2. [JS / Front-end Pre-school RU Course 2025](https://rs.school/courses/javascript-preschool-ru)
+3. Various educational videos on YouTube  
+4. [METANIT](https://metanit.com/web/)
 
 ### Education
 **University:** GSU them. F. Skorina
@@ -45,4 +46,4 @@ function duplicateEncode(word){
    * **speciality:** Information technology engineer
 
 ### English
-A1 level
+A2 level
