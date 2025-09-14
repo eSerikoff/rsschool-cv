@@ -34,3 +34,15 @@ function duplicateEncode(word){
     return newStr;
 }
 ```
+### Cources and self-study
+1. [CS50](https://youtube.com)  
+2. Various educational videos on YouTube  
+3. [METANIT](https://metanit.com/web/)
+
+### Education
+**University:** GSU them. F. Skorina
+   * **faculty:** Automated information processing systems
+   * **speciality:** Information technology engineer
+
+### English
+A1 level
